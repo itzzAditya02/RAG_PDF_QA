@@ -8,6 +8,10 @@ from langchain.text_splitter import CharacterTextSplitter
 from cerebras.cloud.sdk import Cerebras
 from dotenv import load_dotenv
 
+os.environ["STREAMLIT_RUNTIME_DIR"] = "./.streamlit"
+os.environ["STREAMLIT_HOME"] = "./.streamlit"
+os.environ["XDG_CONFIG_HOME"] = "./.streamlit"
+os.environ["XDG_CACHE_HOME"] = "./.streamlit"
 # ======================
 # Config
 # ======================
