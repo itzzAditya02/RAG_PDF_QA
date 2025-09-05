@@ -1,5 +1,7 @@
 streamlit
 langchain-community
 faiss-cpu
+langchain-huggingface
 sentence-transformers
+pypdf
 cerebras-cloud-sdk
